@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgba(255, 162, 0, 0.432);
+    display: grid;
+    grid-template-rows: 20vh 10vh 70vh 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+
+.main-logo {
+    grid-row: 1/span 1;
+    background-color: rgba(54, 3, 3, 0.521);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.main-logo-image {
+    height: 15vh;
+    opacity: 0.7;
+}
+
+.app-nav-top {
+    grid-row: 2/span 1;
+}
+
+.home-section {
+    grid-row: 3/span 1;
+    display: grid;
+    grid-template-rows: 50vh 20vh;
+    grid-template-columns: repeat(auto-fit, repeat(2, 50vw));
+}
+
+.home-section-heading {
+    grid-row: 1/2;
+    grid-column: 1/span 1;
+    display: grid;
+    justify-items: start;
+    align-items: end;
+    font-size: 4vw;
+    font-family: 'Yatra One', cursive;
+    color: #fff;
+}
+
+.home-section-paragraph {
+    grid-row: 2/span 1;
+    grid-column: 1/span 1;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    color: #a68253;
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Denk One', sans-serif;
+}
+
+.home-section-button {
+    grid-row: 2/span 1;
+    grid-column: 2/span 1;
+}
+
+.home-section-button button {
+    background: #000000;
+    background: -webkit-linear-gradient(#000000, #000000);
+    background: linear-gradient(#000000, #000000);
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #a68253;
+    display: inline-block;
+    font: normal 700 3vw/1 'Yatra One', cursive;
+    text-align: center;
+    text-shadow: 5px 5px #000000;
+}
+
+.home-section-button button:hover {
+    cursor: pointer;
+}
+
+.main-second-section {
+    grid-row: 4/span 1;
+}
+
+/* .background-div {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(18, 30, 87, 0.473);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.background-div-video {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 25;
+} */
+
+/* 
+.main {
+    display: grid;
+   grid-template-areas: "logo" "nav" "home" "second-section";
+     grid-template-rows: 20vh 10vh 70vh 100vh;
+    background-color: rgba(0, 0, 0, 0.521);
+    z-index: 50;
+}
+
+.main-logo {
+    grid-area: logo;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: rgba(172, 184, 178, 0.1);
+}
+
+.main-logo-image {
+    height: 16vh;
+    width: 12vw;
+    opacity: 0.7;
+}
+
+.app-nav-top {
+    grid-area: nav;
+}
+
+.home-section {
+    grid-area: home;
+    z-index: 90;
+    display: grid;
+    grid-template-areas: "heading ." "paragraph button";
+    grid-template-rows: 50vh 20vh;
+    grid-template-columns: 45vw 55vw;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.home-section-heading {
+    grid-area: heading;
+    grid-template-rows: 50vh;
+    display: grid;
+    justify-items: start;
+    align-items: end;
+    font-size: 4vw;
+    font-family: 'Yatra One', cursive;
+    color: #fff;
+}
+
+.home-section-paragraph {
+    grid-area: paragraph;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    color: #a68253;
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Denk One', sans-serif;
+}
+
+.home-section-button {
+    grid-area: button;
+    display: grid;
+    justify-items: start;
+    align-items: center;
+}
+
+.home-section-button button { */
+
+/* box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 3vw;
+    padding: 1vh 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(24, 17, 17);
+    background-color: rgba(7, 22, 36, 0.671);
+    height: 20vh;
+    width: 40vw; */
+
+/* background: #000000;
+    background: -webkit-linear-gradient(#000000, #000000);
+    background: linear-gradient(#000000, #000000);
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #a68253;
+    display: inline-block;
+    font: normal 700 3vw/1 'Yatra One', cursive;
+    text-align: center;
+    text-shadow: 5px 5px #000000;
+}
+
+.home-section-button button:hover {
+    cursor: pointer;
+}
+
+.main-second-section {
+    grid-area: second-section;
+} */

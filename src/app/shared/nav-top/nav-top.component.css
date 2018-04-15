@@ -1,0 +1,47 @@
+.nav-top {
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: grid;
+    grid-template-areas: "nav";
+    justify-items: center;
+    align-items: center;
+    z-index: 9999;
+    background-color: rgb(9, 133, 75);
+}
+
+.nav-top-nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "nav1 nav2 nav3 nav4 nav5";
+    grid-gap: 4vw;
+}
+
+.nav-top-nav a {
+    font-family: 'Yatra One', cursive;
+    color: #a68253;
+    font-size: 2vw;
+    font-style: oblique;
+    font-weight: bolder;
+    line-height: 1.0 em;
+}
+
+.nav-top-nav-nav1 {
+    grid-area: nav1;
+}
+
+.nav-top-nav-nav2 {
+    grid-area: nav2;
+}
+
+.nav-top-nav-nav3 {
+    grid-area: nav3;
+}
+
+.nav-top-nav-nav4 {
+    grid-area: nav4;
+}
+
+.nav-top-nav-nav5 {
+    grid-area: nav5;
+}
